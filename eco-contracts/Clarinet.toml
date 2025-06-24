@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.eco-leaderboards]
+path = 'contracts/eco-leaderboards.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.public-ledger]
 path = 'contracts/public-ledger.clar'
 clarity_version = 2
